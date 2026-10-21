@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#101820">
+  <meta name="description" content="Food Chemistry Project — Mansoura University, Faculty of Agriculture.">
+  <title>Food Chemistry Project | Mansoura University</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="ambient ambient-one" aria-hidden="true"></div>
+  <div class="ambient ambient-two" aria-hidden="true"></div>
+
+  <header class="topbar">
+    <a class="brand" href="#top" aria-label="Food Chemistry Project home">
+      <span class="brand-mark" aria-hidden="true">FC</span>
+      <span class="brand-copy"><strong>FOOD CHEMISTRY</strong><small>ACADEMIC PROJECT</small></span>
+    </a>
+    <a class="topbar-link" href="#team">Project Team <span aria-hidden="true">↗</span></a>
+  </header>
+
+  <main id="top">
+    <section class="hero section-shell">
+      <div class="hero-content">
+        <p class="eyebrow"><span class="eyebrow-line"></span> MANSOURA UNIVERSITY · FACULTY OF AGRICULTURE</p>
+        <h1>Food Chemistry <em>Project</em></h1>
+        <p class="hero-description">Exploring the science behind food composition, quality, and transformation.</p>
+        <div class="hero-meta">
+          <div class="meta-icon" aria-hidden="true">✳</div>
+          <div><span class="meta-label">COURSE</span><strong>Food Chemistry</strong></div>
+        </div>
+        <a class="primary-button" href="#supervisors">Meet the team <span aria-hidden="true">↓</span></a>
+      </div>
+      <div class="hero-art" aria-label="Decorative food chemistry illustration">
+        <div class="art-orbit orbit-one"></div>
+        <div class="art-orbit orbit-two"></div>
+        <div class="art-core">
+          <span class="core-ring"></span>
+          <span class="core-leaf">✳</span>
+          <span class="core-label">FOOD<br>SCIENCE</span>
+        </div>
+        <span class="molecule molecule-a">O</span>
+        <span class="molecule molecule-b">H</span>
+        <span class="molecule molecule-c">C</span>
+        <span class="art-caption">COMPOSITION <span>·</span> REACTION <span>·</span> QUALITY</span>
+      </div>
+    </section>
+
+    <section class="intro-strip section-shell">
+      <div class="strip-number">01</div>
+      <div class="strip-copy"><h2>About this project</h2><p>A course project presented by students of the Faculty of Agriculture at Mansoura University.</p></div>
+      <div class="strip-tag">FOOD CHEMISTRY</div>
+    </section>
+
+    <section class="people-section section-shell" id="supervisors">
+      <div class="section-heading">
+        <div><p class="eyebrow">ACADEMIC GUIDANCE</p><h2>Project <em>Supervisors</em></h2></div>
+        <span class="section-count">03 FACULTY MEMBERS</span>
+      </div>
+      <div class="supervisor-grid" id="supervisor-list" aria-label="Project supervisors"></div>
+    </section>
+
+    <section class="people-section team-section section-shell" id="team">
+      <div class="section-heading">
+        <div><p class="eyebrow">THE PEOPLE BEHIND THE WORK</p><h2>Project <em>Team</em></h2></div>
+        <span class="section-count"><span id="student-count">25</span> STUDENTS</span>
+      </div>
+      <div class="team-tools">
+        <label class="search-box">
+          <span aria-hidden="true">⌕</span>
+          <input id="student-search" type="search" placeholder="Search student name..." aria-label="Search student name">
+          <kbd>⌘ / Ctrl K</kbd>
+        </label>
+        <div class="team-actions">
+          <button class="text-button" id="sort-button" type="button">Sort A–Z <span aria-hidden="true">↕</span></button>
+          <button class="text-button" id="reset-button" type="button">Reset</button>
+        </div>
+      </div>
+      <div class="student-grid" id="student-list" aria-live="polite"></div>
+      <p class="empty-state" id="empty-state" hidden>No students match your search.</p>
+      <div class="team-footer"><span>FOOD CHEMISTRY PROJECT</span><span id="visible-count">Showing 25 students</span></div>
+    </section>
+
+    <section class="closing-card section-shell">
+      <div class="closing-symbol" aria-hidden="true">✳</div>
+      <div><p class="eyebrow">MANSOURA UNIVERSITY</p><h2>Science that starts <em>with food.</em></h2><p>Faculty of Agriculture · Food Chemistry</p></div>
+      <a href="#top" class="back-top" aria-label="Back to top">↑</a>
+    </section>
+  </main>
+
+  <footer class="footer section-shell">
+    <span>FOOD CHEMISTRY PROJECT</span>
+    <span>Mansoura University · Faculty of Agriculture</span>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
